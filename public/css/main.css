@@ -1,0 +1,50 @@
+
+body {
+    background: url(http://subtlepatterns.com/patterns/brushed.png);
+}
+.panel {
+    width: 550px;
+    margin: 0 auto;
+    padding: 5px;
+    background: #333;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.panel h1 {
+    color: #fff;
+}
+.panel img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.panel ul {
+    height: 300px;
+    overflow-y: auto;
+}
+.list-group-item {
+    cursor: pointer;
+}
+.list-group-item.active {
+    background: #FFE3B0;
+}
+
+
+.list-group-item .badge {
+    background: #d15d62;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    margin: 10px;
+}
+
+small {
+    font-size: 11px;
+    color: #666;
+    display: block;
+}

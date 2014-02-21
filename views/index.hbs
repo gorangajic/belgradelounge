@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Youtube - Belgrade Lounge playlist</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/vendor/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="panel">
+                <a href="https://www.facebook.com/groups/belgradelounge/" target="_blank">
+                    <h1 class="text-center">Belgrade Lounge</h1>
+                    <img src="https://scontent-b-fra.xx.fbcdn.net/hphotos-ash4/t1/524825_10152798534660430_1867173871_n.jpg">
+                </a>
+                <div id="player"></div>
+                <ul id="list" class="list-group">
+                    {{#each links}}
+                        <li class="list-group-item" id="{{id}}">
+                            <span class="badge">&times;</span>
+                            {{name}} <small>{{by}}</small>
+                        </li>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/vendor/dist/jquery.js"><\/script>')</script>
+        <script src="/js/main.js"> </script>
+    </body>
+</html>

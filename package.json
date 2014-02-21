@@ -1,0 +1,16 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "postinstall": "./node_modules/.bin/bower install"
+  },
+  "dependencies": {
+    "express": "3.4.8",
+    "hbs": "*",
+    "underscore": "~1.6.0",
+    "fbgraph": "~0.2.9",
+    "bower": "~1.2.8"
+  }
+}
